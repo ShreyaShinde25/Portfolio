@@ -17,15 +17,15 @@ Home - About Me - Projects - Contact Me
 
 ========== HOME ==========
 .home__name
-Rian Lot
+Shreya Shinde
 
 .home__social-link
-https://www.instagram.com/
-https://www.linkedin.com/
-https://github.com/
+https://www.instagram.com/shreya_shinde_/
+https://www.linkedin.com/in/shreya-shinde-3b97641b0/
+https://github.com/ShreyaShinde25
 
 .home__description
-<b>Frontend Developer</b>, with knowledge in web 
+<b>Software Engineer</b>, with knowledge in web 
 development and design, I offer the best 
 projects resulting in quality work.
 
