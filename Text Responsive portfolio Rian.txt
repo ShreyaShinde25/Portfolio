@@ -44,15 +44,15 @@ experience and many clients are happy with
 the projects carried out.
 
 .about__item
-<b>My Skills Are:</b> HTML, CSS, JavaScript, 
-React, Git & GitHub, Bootstrap, Flutter & 
-Figma.
+<b>My Skills Are:</b> HTML, CSS,Java, Python, C++, SQL, JavaScript, 
+Angular, Spring boot,Bootstrap, Tensorflow, Git & GitHub,Power BI, Linux, MySQL, IBM Cloud, Firebase, Docker, Kubernetes, 
+OpenShift, & Open Liberty.
 
 .button
 Contact Me
 
 .button__ghost
-https://www.linkedin.com/
+https://www.linkedin.com/in/shreya-shinde-3b97641b0/
 
 
 ========== SERVICES ==========
