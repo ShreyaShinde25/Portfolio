@@ -134,8 +134,8 @@ Write me on my social networks
 
 .contact__social-link
 https://www.facebook.com/
-https://www.instagram.com/
-https://www.linkedin.com/
+https://www.instagram.com/shreya_shinde_/
+https://www.linkedin.com/in/shreya-shinde-3b97641b0/
 
 
 ========== CONTACT JS ==========
