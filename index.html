@@ -40,12 +40,21 @@
                </li>
 
                <li class="nav__item">
+                  <a href="#education" class="nav__link">Education</a>
+              </li>
+
+               <li class="nav__item">
                   <a href="#services" class="nav__link">Work Experience</a>
                </li>
 
                <li class="nav__item">
                   <a href="#projects" class="nav__link">Projects</a>
                </li>
+
+               <li class="nav__item">
+                  <a href="#experience" class="nav__link">Extra-Curricular</a>
+               </li>
+               
                
                <li class="nav__item">
                   <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
@@ -173,6 +182,46 @@
          </div>
       </section>
 
+<!-- ========Education====== -->
+<section class="education section" id="education">
+   <div class="education__container container grid">
+       <h2 class="section__title-1">Education.</h2>
+
+       <!-- Masters Degree -->
+       <div class="education__item">
+           <h3 class="education__title">Master of Engineering, MEng</h3>
+           <h4 class="education__university">University of Waterloo</h4>
+           <p class="education__major">Electrical & Computer Engineering</p>
+           <p class="education__gpa">GPA: 4.00/4.00</p>
+           <button class="education__toggle">
+               <i class="ri-add-line"></i>
+           </button>
+       </div>
+
+       <!-- Bachelors Degree -->
+       <div class="education__item education__hidden">
+         <h3 class="education__title">Bachelor of Engineering, B.E</h3>
+         <h4 class="education__university">Mumbai University</h4>
+         <p class="education__major">Electrical Engineering</p>
+         <p class="education__gpa">GPA: 9.51/10.00</p>
+         <button class="education__toggle">
+             <i class="ri-add-line"></i>
+         </button>
+       </div>
+
+       <!-- Senior Secondary Education -->
+       <div class="education__item education__hidden">
+         <h3 class="education__title">Senior Secondary, CBSE</h3>
+         <h4 class="education__university">D.A.V Public School</h4>
+         <p class="education__major">PCM with Computer Science</p>
+         <p class="education__gpa">Percentage: 96.2%</p>
+       </div>
+   </div>
+</section>
+
+
+     
+
       <!--==================== SERVICES ====================-->
       <section class="services section" id="services">
          <h2 class="section__title-2">
@@ -233,13 +282,7 @@
                   </p>
                </div>
             </article>
-
-
-
          </div>
-
-
-
       </section>
 
       <!--==================== PROJECTS ====================-->
@@ -393,6 +436,49 @@
 
       </section>
 
+ <!-- ==============Volunteering & Extra curricular================ -->
+      <section class="experience section" id="experience">
+             <h2 class="section__title-1"><span>Volunteering & Extracurriculars</span></h2>
+           <div class="experience__container container grid">
+             <!-- Card 1 -->
+             <div class="experience__card">
+                 <div class="experience__content">
+                     <h3 class="experience__title">Event Name 1</h3>
+                     <p class="experience__description">Short description of the event...</p>
+                     <img src="assets/img/project-1.jpg" alt="Event 1" class="experience__img">
+                 </div>
+             </div>
+     
+             <!-- Card 2 -->
+             <div class="experience__card">
+                 <div class="experience__content">
+                     <h3 class="experience__title">Event Name 2</h3>
+                     <p class="experience__description">Short description of the event...</p>
+                     <img src="assets/img/project-2.jpg" alt="Event 2" class="experience__img">
+                 </div>
+             </div>
+             
+             <div class="experience__card">
+               <div class="experience__content">
+                   <h3 class="experience__title">Event Name 3</h3>
+                   <p class="experience__description">Short description of the event...</p>
+                   <img src="assets/img/project-2.jpg" alt="Event 2" class="experience__img">
+               </div>
+           </div>
+
+           <div class="experience__card">
+            <div class="experience__content">
+                <h3 class="experience__title">Event Name 4</h3>
+                <p class="experience__description">Short description of the event...</p>
+                <img src="assets/img/project-2.jpg" alt="Event 2" class="experience__img">
+            </div>
+        </div>
+             <!-- More cards as needed -->
+            </div>
+         
+     </section>
+     
+
       <!--==================== CONTACT ====================-->
       <section class="contact section" id="contact">
          <div class="contact__container grid">
@@ -501,6 +587,10 @@
          </li>
          <li>
             <a href="#projects" class="footer__link">Projects</a>
+         </li>
+
+         <li>
+            <a href="#" class="footer__link">Resume</a>
          </li>
       </ul>
 

@@ -132,3 +132,32 @@ themeButton.addEventListener('click', () => {
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+document.querySelectorAll('.education__toggle').forEach((button, index) => {
+    button.addEventListener('click', () => {
+        // Toggle the next education item
+        const nextItem = button.parentElement.nextElementSibling;
+        nextItem.classList.toggle('education__hidden');
+        
+        // Change the icon
+        const icon = button.querySelector('i');
+        icon.classList.toggle('ri-subtract-line');
+        icon.classList.toggle('ri-add-line');
+
+        // Optionally hide subsequent sections
+        if (!nextItem.classList.contains('education__hidden')) {
+            let subsequentItem = nextItem.nextElementSibling;
+            while(subsequentItem) {
+                subsequentItem.classList.add('education__hidden');
+                const subIcon = subsequentItem.querySelector('.education__toggle i');
+                if (subIcon) {
+                    subIcon.classList.remove('ri-subtract-line');
+                    subIcon.classList.add('ri-add-line');
+                }
+                subsequentItem = subsequentItem.nextElementSibling;
+            }
+        }
+    });
+});
+
+
+
