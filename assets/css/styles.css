@@ -475,6 +475,7 @@ transition: filter .4s;
   row-gap: 1rem;
 }
 
+
 .home__social-link{
   background-color: var(--black-color-light);
   color:var(--white-color);
@@ -920,6 +921,7 @@ projects__link:hover i{
 
 .experience__card:hover .experience__img {
   top: 0;
+  opacity: 1;
 }
 
 /* Additional styling for hover effect */
@@ -1246,8 +1248,10 @@ projects__link:hover i{
   .contact__data .section__title-2{
     transform: translateX(0);
   }
-
+  
 }
+
+
 
 /* For medium devices */
 @media screen and (min-width: 576px){
