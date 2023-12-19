@@ -464,7 +464,7 @@ transition: filter .4s;
   z-index: 10;
 }
 
-.home__social{
+/* .home__social{
   height: max-content;
   position: absolute;
   left: -3rem;
@@ -473,7 +473,20 @@ transition: filter .4s;
   margin: auto 0;
   display: grid;
   row-gap: 1rem;
+} */
+
+.home__social {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust based on element's size */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items */
+  gap: 1rem;
 }
+
+
 
 
 .home__social-link{
@@ -1251,7 +1264,37 @@ projects__link:hover i{
   
 }
 
+@media screen and (max-width: 480px) {
+  .home__social {
+   position: absolute;  /* Fixed to viewport */
+   left: 123%;
+   right: 1rem; /* Add some space from the right edge */
+   z-index: 10; /* Remove the left offset */
+    /* Ensure it's above other content */
+  }
 
+  /* Adjust for safe areas on iPhone with notch */
+  .home__social {
+    right: max(env(safe-area-inset-right), 1rem); /* Use the greater of safe area or 1rem */
+    bottom: max(env(safe-area-inset-bottom), 1rem); /* Use the greater of safe area or 1rem */
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .home__social {
+   position: absolute;  /* Fixed to viewport */
+   left: 123%;
+   right: 1rem; /* Add some space from the right edge */
+   z-index: 10; /* Remove the left offset */
+    /* Ensure it's above other content */
+  }
+
+  /* Adjust for safe areas on iPhone with notch */
+  .home__social {
+    right: max(env(safe-area-inset-right), 1rem); /* Use the greater of safe area or 1rem */
+    bottom: max(env(safe-area-inset-bottom), 1rem); /* Use the greater of safe area or 1rem */
+  }
+}
 
 /* For medium devices */
 @media screen and (min-width: 576px){
@@ -1263,6 +1306,18 @@ projects__link:hover i{
     grid-template-columns: 350px;
     justify-content: center;
   }
+
+  .home__social {
+    position: absolute;  /* Fixed to viewport */
+    left: 128%;
+    z-index: 10; 
+   }
+ 
+   /* Adjust for safe areas on iPhone with notch */
+   .home__social {
+     right: max(env(safe-area-inset-right), 1rem); /* Use the greater of safe area or 1rem */
+     bottom: max(env(safe-area-inset-bottom), 1rem); /* Use the greater of safe area or 1rem */
+   }
 
   .contact__data{
     width: 350px;
@@ -1299,6 +1354,8 @@ projects__link:hover i{
   .dark-theme .contact__social-arrow{
     filter: none;
   }
+
+  
 }
 
 @media screen and (min-width: 768px){
