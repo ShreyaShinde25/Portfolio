@@ -1639,7 +1639,8 @@ projects__link:hover i{
    }
 
    .services__container{
-    grid-template-columns: repeat(3, 282px);
+    /* grid-template-columns: repeat(3, 282px); */
+    grid-template-columns: repeat(2, 282px);
     column-gap: 5rem;
     padding-block: 3rem 5rem;
    }
